@@ -1,0 +1,7 @@
+{
+    "files": [],
+    "references": [
+      { "path": "./packages/OmniSCUM-API" },
+      { "path": "./packages/OmniSCUM-DiscordBot" }
+    ]
+  }

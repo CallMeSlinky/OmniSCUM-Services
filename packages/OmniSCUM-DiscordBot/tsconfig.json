@@ -1,0 +1,19 @@
+{
+	"extends": [
+		"../../tsconfig.base.json",
+		"@sapphire/ts-config",
+		"@sapphire/ts-config/extra-strict",
+		"@sapphire/ts-config/decorators"
+	],
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": "src",
+		"tsBuildInfoFile": "dist/.tsbuildinfo",
+		"types": [
+			"node"
+		]
+	},
+	"include": [
+		"src"
+	]
+}

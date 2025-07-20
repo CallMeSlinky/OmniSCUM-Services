@@ -1,0 +1,12 @@
+{
+    "name": "@omni-scum/convex-backend",
+    "version": "1.0.0",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+      "convex": "convex"
+    },
+    "dependencies": {
+      "convex": "^1.25.4"
+    }
+  }

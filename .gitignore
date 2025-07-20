@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+**/node_modules
+
+# Build output
+/dist
+**/dist
+**/*.tsbuildinfo
+
+# Environment Variables
+# Ignore all .env files in any directory
+**/.env
+**/.env.*
+
+# Logs and OS-specific files
+*.log
+*.heapsnapshot
+.DS_Store
+
+# IDE and Editor Folders
+.vscode/
+.idea/
+*.iml
+.vs/
+
+# --- Convex ---
+**/convex/.convex

@@ -1,0 +1,15 @@
+{
+  "name": "omni-scum-services",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build-all": "tsc -b",
+    "dev:api": "bun run --hot --env-file=./packages/OmniSCUM-API/.env.local packages/OmniSCUM-API/src/index.ts",
+    "dev:bot": "bun run --hot --env-file=./packages/OmniSCUM-DiscordBot/.env.local packages/OmniSCUM-DiscordBot/src/index.ts",
+    "start:bot": "bun --env-file=./packages/OmniSCUM-DiscordBot/.env dist/index.js",
+    "build:bot": "bun --filter @omni-scum/OmniSCUM-DiscordBot build",
+    "convex": "bun --filter @omni-scum/convex-backend convex"
+  }
+}
